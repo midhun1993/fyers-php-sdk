@@ -1,0 +1,7 @@
+<phpunit bootstrap="vendor/autoload.php" colors="true" verbose="true" stopOnError="false">
+	<testsuites>
+		<testsuite name="fyers-php-sdk Test Suite">
+			<directory>test/</directory>
+		</testsuite>
+	</testsuites>
+</phpunit>
